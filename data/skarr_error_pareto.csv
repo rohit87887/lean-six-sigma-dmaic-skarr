@@ -1,0 +1,7 @@
+error_category,occurrences,percent_of_total,cumulative_percent
+Data entry mistake,48,32.0,32.0
+Formatting / style deviation,36,24.0,56.0
+Missing reference,25,16.7,72.7
+Incorrect calculation,18,12.0,84.7
+Version mismatch,14,9.3,94.0
+Other,9,6.0,100.0

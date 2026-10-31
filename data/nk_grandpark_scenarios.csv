@@ -1,0 +1,5 @@
+scenario,description,arrival_to_served_min,sd_min,parties_over_20min_percent,wait_for_table_min
+S0,Baseline (2 order takers / 4 kitchen / 2 servers),21.6,1.8,46.6,3.1
+S1,Move one order taker to the kitchen,18.6,1.0,33.8,1.9
+S2,Kitchen 15 percent faster,16.8,1.0,25.1,1.5
+S3,Both changes combined,16.1,0.7,20.7,1.2

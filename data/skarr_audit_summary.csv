@@ -1,0 +1,12 @@
+metric,value,unit,note
+total_units_audited,1200,units,Sample size (n) for the audit period
+units_in_error,96,units,Units carrying at least one deviation from specification
+total_errors,150,errors,Total individual deviations across all units
+opportunities_per_unit,10,count,Specification checkpoints applied at internal review
+percent_defective,8.00,percent,units_in_error / total_units_audited
+first_time_yield,92.00,percent,(audited - in_error) / audited
+defects_per_unit,0.125,DPU,total_errors / total_units_audited
+errors_per_defective_unit,1.56,ratio,total_errors / units_in_error
+defects_per_opportunity,0.0125,DPO,total_errors / (units x opportunities)
+dpmo,12500,DPMO,DPO x 1000000
+process_sigma_short_term,3.74,sigma,Converted from DPMO
