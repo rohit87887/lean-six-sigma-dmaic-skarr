@@ -1,8 +1,7 @@
 # Lean Six Sigma — DMAIC Applied to Service Delivery
 
 An academic Lean Six Sigma project applying the **DMAIC** framework to reduce client-facing
-errors and delivery delay in a professional services setting, with a second case study applying
-the same framework to restaurant service time.
+errors and delivery delay in a professional services setting.
 
 **Author** — S Rohit (23MIA1175)
 Integrated M.Tech Business Analytics, Vellore Institute of Technology, Chennai
@@ -12,7 +11,7 @@ public copy; full attribution appears in the version submitted to the department
 
 ---
 
-## Case Study A — SKARR Business Solutions (primary)
+## Case study — SKARR Business Solutions
 
 A Chennai-based consulting firm working in digital publishing, data analytics and web
 development. The project targets **client errors in delivered work units** and the rework loop
@@ -66,23 +65,6 @@ Assuming a 50 % reduction in the three dominant Pareto categories:
 
 ---
 
-## Case Study B — NK Grand Park Restaurant
-
-The same DMAIC framework applied to guest waiting time, from arrival to food served, supported by
-a discrete-event simulation.
-
-| Scenario | Arrival → served | Parties over 20 min | Wait for table |
-|---|---|---|---|
-| S0 Baseline (2 / 4 / 2 staff) | 21.6 ± 1.8 min | 46.6 % | 3.1 min |
-| S1 Move one order taker to kitchen | 18.6 ± 1.0 min | 33.8 % | 1.9 min |
-| S2 Kitchen 15 % faster | 16.8 ± 1.0 min | 25.1 % | 1.5 min |
-| **S3 Both combined** | **16.1 ± 0.7 min** | **20.7 %** | **1.2 min** |
-
-The kitchen is the constraint at 66 % utilisation while order taking sits idle at 19 %. Waiting for
-a table and the kitchen queue together account for 98 % of all non-value-adding time.
-
----
-
 ## Figures
 
 | | |
@@ -98,9 +80,9 @@ a table and the kitchen queue together account for 98 % of all non-value-adding 
 
 ```
 docs/            Journal-format manuscript (.docx and .pdf)
-presentations/   Project decks — literature survey, attribute-data analysis, restaurant case
+presentations/   Project decks — literature survey and attribute-data analysis
 figures/         Publication-quality figures at 300 dpi
-data/            Audit summary, Pareto distribution, value stream and simulation results (CSV)
+data/            Audit summary, Pareto distribution and value stream data (CSV)
 src/figures/     matplotlib figure generation
 src/manuscript/  docx-js manuscript generator
 src/decks/       pptxgenjs deck generators
@@ -126,8 +108,7 @@ node src/decks/gen_icons_skarr.js && node src/decks/skarr_dataset_deck.js
 
 DMAIC · SIPOC · Voice of Customer → CTQ · DPMO and process sigma · Pareto analysis ·
 Fishbone (cause-and-effect) analysis · Value Stream Mapping · Attribute Agreement Analysis
-(Cohen's kappa) · Poka-yoke · u-chart and p-chart statistical process control ·
-Discrete-event simulation
+(Cohen's kappa) · Poka-yoke · u-chart and p-chart statistical process control
 
 ## Licence
 
