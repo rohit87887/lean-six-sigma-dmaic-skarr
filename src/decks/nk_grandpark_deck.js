@@ -43,7 +43,7 @@ s.addText("A process improvement study at NK Grand Park Restaurant — supported
  {x:0.9,y:3.85,w:9.6,h:0.75,fontFace:FB,fontSize:14.5,italic:true,color:"C5D2CC",lineSpacing:19});
 s.addShape("line",{x:0.9,y:4.72,w:2.2,h:0,line:{color:ACCENT,width:3}});
 s.addText("PRESENTED BY",{x:0.9,y:4.9,w:4,h:0.3,fontFace:FB,fontSize:11,bold:true,color:ACCENT,charSpacing:2});
-[["S. Rohit","23MIA1175"],["K. Sanjay","23MIA1060"],["B.L. Jainth Vaishnav","23MIA1022"]].forEach((m,i)=>{
+[["S. Rohit","23MIA1175"],["and two project teammates",""]].forEach((m,i)=>{
  const y=5.22+i*0.4;
  s.addText(m[0],{x:0.9,y,w:3.9,h:0.35,fontFace:FB,fontSize:13.5,bold:true,color:WHITE,valign:"middle"});
  s.addText(m[1],{x:4.85,y,w:2.2,h:0.35,fontFace:FB,fontSize:13,color:"C5D2CC",valign:"middle"});});

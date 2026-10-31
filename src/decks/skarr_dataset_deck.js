@@ -37,7 +37,7 @@ s.addText("Audit Error Dataset:\nAttribute Data Analysis & DMAIC Tool Selection"
 s.addText("Reducing client errors to cut rework and service delivery delay — SKARR Business Solutions",{x:0.9,y:3.95,w:9.6,h:0.5,fontFace:FB,fontSize:15,italic:true,color:"C9D6E3"});
 s.addShape("line",{x:0.9,y:4.6,w:2.2,h:0,line:{color:ACCENT,width:3}});
 s.addText("PRESENTED BY",{x:0.9,y:4.8,w:4,h:0.3,fontFace:FB,fontSize:11,bold:true,color:SECONDARY,charSpacing:2});
-[["S. Rohit","23MIA1175"],["K. Sanjay","23MIA1060"],["B.L. Jainth Vaishnav","23MIA1022"]].forEach((m,i)=>{
+[["S. Rohit","23MIA1175"],["and two project teammates",""]].forEach((m,i)=>{
   const y=5.15+i*0.4;
   s.addText(m[0],{x:0.9,y,w:3.9,h:0.35,fontFace:FB,fontSize:13.5,bold:true,color:WHITE,valign:"middle"});
   s.addText(m[1],{x:4.85,y,w:2.2,h:0.35,fontFace:FB,fontSize:13,color:"C9D6E3",valign:"middle"});

@@ -53,8 +53,8 @@ const K=[];   // document children
 K.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:200,line:260},
   children:[run("An Application of the DMAIC Framework to Service Delivery in a Business Consulting Firm – A Case Study",{sz:14,b:true})]}));
 K.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:140},children:[
-  run("S Rohit"),run("1",{sup:true}),run(", K Sanjay"),run("1",{sup:true}),
-  run(", B L Jainth Vaishnav"),run("1",{sup:true}),run(", [Guide Name]"),run("2*",{sup:true})]}));
+  run("S Rohit"),run("1",{sup:true}),run(", [Co-author]"),run("1",{sup:true}),
+  run(", [Co-author]"),run("1",{sup:true}),run(", [Guide Name]"),run("2*",{sup:true})]}));
 [["1","School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Vandalur-Kelambakkam Road, Chennai – 600127, India."],
  ["2","Operations Division, VIT Business School, Vellore Institute of Technology, Chennai Campus, Vandalur-Kelambakkam Road, Chennai – 600127, India."]]
  .forEach(([n,a])=>K.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},

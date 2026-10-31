@@ -4,8 +4,11 @@ An academic Lean Six Sigma project applying the **DMAIC** framework to reduce cl
 errors and delivery delay in a professional services setting, with a second case study applying
 the same framework to restaurant service time.
 
-**Team** — S Rohit (23MIA1175) · K Sanjay (23MIA1060) · B L Jainth Vaishnav (23MIA1022)
+**Author** — S Rohit (23MIA1175)
 Integrated M.Tech Business Analytics, Vellore Institute of Technology, Chennai
+
+Completed as a team project. Co-authors' names and registration numbers are omitted from this
+public copy; full attribution appears in the version submitted to the department.
 
 ---
 
@@ -128,4 +131,7 @@ Discrete-event simulation
 
 ## Licence
 
-Academic coursework. Shared for reference and review.
+The source code in `src/` is released under the [MIT Licence](LICENSE).
+
+The documents in `docs/` and `presentations/` are academic coursework, shared here for reference
+and review. They are co-authored work; please cite rather than reuse them wholesale.
